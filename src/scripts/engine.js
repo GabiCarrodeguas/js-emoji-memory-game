@@ -1,20 +1,20 @@
 const emojis = [
-  "🐱",
-  "🐱",
-  "🦝",
-  "🦝",
-  "🦊",
-  "🦊",
-  "🐶",
-  "🐶",
-  "🐵",
-  "🐵",
-  "🦁",
-  "🦁",
-  "🐯",
-  "🐯",
-  "🐮",
-  "🐮",
+  "🎅",
+  "🎅",
+  "🤶",
+  "🤶",
+  "🧑‍🎄",
+  "🧑‍🎄",
+  "🎄",
+  "🎄",
+  "🎁",
+  "🎁",
+  "🔔",
+  "🔔",
+  "❄️",
+  "❄️",
+  "☃️",
+  "☃️",
 ];
 let openCards = [];
 
@@ -53,6 +53,6 @@ function checkMatch() {
   openCards = [];
 
   if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-    alert("Você venceu !");
+    alert("Você venceu,FELIZ NATAL!");
   }
 }
